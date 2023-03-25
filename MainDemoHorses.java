@@ -13,6 +13,7 @@ public class MainDemoHorses {
                 horse2.setBirthYear(2011);
                 horse2.setRaces(4);
 
+                System.out.println();
                 System.out.println(horse1.getName() + " is " + horse1.getColor() +
                                 " and was born in " + horse1.getBirthYear() + ".");
 
@@ -20,5 +21,6 @@ public class MainDemoHorses {
                                 " and was born in " + horse2.getBirthYear() + ".");
 
                 System.out.println(horse2.getName() + " has been in " + horse2.getRaces() + " races.");
+                System.out.println();
         }
 }
